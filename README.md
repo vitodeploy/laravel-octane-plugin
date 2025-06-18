@@ -17,3 +17,7 @@ Go to the site features of a Laravel website and there you can enable and disabl
 ```bash
 php artisan plugins:uninstall vitodeploy/laravel-octane-plugin
 ```
+
+## Supported web servers
+
+- Nginx
