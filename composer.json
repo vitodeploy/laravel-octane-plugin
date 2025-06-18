@@ -3,6 +3,7 @@
     "description": "Laravel octane plugin for VitoDeploy",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Saeed Vaziry",
@@ -33,6 +34,6 @@
             ]
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": false
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
