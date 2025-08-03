@@ -43,7 +43,7 @@ class Enable extends Action
             'port' => 'required|integer|min:1|max:65535',
         ])->validate();
 
-        $this->site->server->ssh()->exec(
+        $this->site->server->ssh($this->site->user)->exec(
             __('php :path/artisan octane:install --no-interaction', [
                 'path' => $this->site->path,
             ]),
