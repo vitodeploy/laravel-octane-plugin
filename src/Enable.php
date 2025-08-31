@@ -28,9 +28,15 @@ class Enable extends Action
     public function form(): ?DynamicForm
     {
         return DynamicForm::make([
+            DynamicField::make('alert')
+                ->alert()
+                ->options(['type' => 'warning'])
+                ->description('Make sure you have already set the `OCTANE_SERVER` in your `.env` file'),
             DynamicField::make('port')
                 ->text()
-                ->default(8000),
+                ->label('Octane Port')
+                ->default(8000)
+                ->description('The port on which Laravel Octane will run.'),
         ]);
     }
 

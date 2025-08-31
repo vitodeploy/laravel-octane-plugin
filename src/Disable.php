@@ -24,9 +24,10 @@ class Disable extends Action
     public function form(): ?DynamicForm
     {
         return DynamicForm::make([
-            DynamicField::make('port')
-                ->text()
-                ->default(8000),
+            DynamicField::make('confirm')
+                ->alert()
+                ->description('Are you sure you want to disable Laravel Octane for this site?')
+                ->options(['type' => 'warning']),
         ]);
     }
 
