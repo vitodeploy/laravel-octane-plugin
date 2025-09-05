@@ -1,6 +1,6 @@
 <?php
 
-namespace VitoDeploy\LaravelOctanePlugin;
+namespace App\Vito\Plugins\RichardAnderson\LaravelOctanePlugin\Actions;
 
 use App\Actions\Worker\DeleteWorker;
 use App\DTOs\DynamicField;
