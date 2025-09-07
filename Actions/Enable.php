@@ -36,7 +36,7 @@ class Enable extends Action
                 ->text()
                 ->label('Octane Port')
                 ->default(8000)
-                ->description('The port on which Laravel Octane will run.'),
+                ->description('The port on which Laravel Octane will run. Make sure no other apps running in this port on the server.'),
         ]);
     }
 
