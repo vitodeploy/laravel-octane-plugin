@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Vito\Plugins\RichardAnderson\LaravelOctanePlugin;
+namespace App\Vito\Plugins\Vitodeploy\LaravelOctanePlugin;
 
 use App\Plugins\AbstractPlugin;
 use App\Plugins\RegisterSiteFeature;
 use App\Plugins\RegisterSiteFeatureAction;
-use App\Vito\Plugins\RichardAnderson\LaravelOctanePlugin\Actions\Disable;
-use App\Vito\Plugins\RichardAnderson\LaravelOctanePlugin\Actions\Enable;
+use App\Vito\Plugins\Vitodeploy\LaravelOctanePlugin\Actions\Disable;
+use App\Vito\Plugins\Vitodeploy\LaravelOctanePlugin\Actions\Enable;
 
 class Plugin extends AbstractPlugin
 {
